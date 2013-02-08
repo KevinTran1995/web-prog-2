@@ -1,0 +1,34 @@
+<!-- DTD of a book organization language -->
+<!ENTITY % URI "CDATA">
+
+<!-- Document Structure -->
+<!ELEMENT libml (book)+>
+<!ELEMENT book (isbn, detail, writers)>
+
+<!-- ISBN Structure -->
+<!ELEMENT isbn (#PCDATA)>
+
+<!-- Detail Structure -->
+<!ELEMENT detail (name+, volume?, edition, publishDate, publishHouse)>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT volume (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+<!ELEMENT publishDate (#PCDATA)>
+<!ELEMENT publishHouse (#PCDATA)>
+
+<!-- Writers Structure -->
+<!ELEMENT writers (author+, editor?)>
+
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT editor (#PCDATA)>
+
+<!-- Attribute Rules -->
+<!ATTLIST libml
+    xmlns %URI; "http://lskgfjv.linuxclass.marist.edu/libmlnewÎ/libml.dtd">
+
+<!ATTLIST isbn
+    type (10 | 13)>
+  
+<!ATTLIST edition
+    type (softCover | hardCover | eBook)>
