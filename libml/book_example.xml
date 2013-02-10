@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!-- No style sheet yet...
-<?xml-stylesheet href="" type="text/xsl"?>
--->
-
+<?xml-stylesheet href="book.xsl" type="text/xsl"?>
 <!DOCTYPE book SYSTEM "http://lskgfjv.linuxclass.marist.edu/libml/libml.dtd">
-<libml xmlns="http://lskgfjv.linuxclass.marist.edu/libml/libml.dtd">
-	<book>
-		<isbn type="10">
-			1400050340
-		</isbn>
-		<detail>
-			<title>Cheese: A Connoisseur's Guide to the World's Best</title>
-			<!--<volume></volume>-->
-			<edition type="hardCover"></edition>
-			<publishDate>August 30, 2005</publishDate>
-			<publishHouse>Clarkson Potter</publishHouse>
-		</detail>
-		<writers>
-			<author>Max McCalman</author>
-			<!--<editor></editor>-->
-		</writers>
-	</book>
-</libml>
+<book>
+	<isbn type="10">
+		1400050340
+	</isbn>
+	<detail>
+		<title>Cheese: A Connoisseur's Guide to the World's Best</title>
+		<!--<volume></volume>-->
+		<edition type="hardCover"></edition>
+		<publishDate>August 30, 2005</publishDate>
+		<publishHouse>Clarkson Potter</publishHouse>
+	</detail>
+	<writers>
+		<author>Max McCalman</author>
+		<!--<editor></editor>-->
+	</writers>
+</book>
