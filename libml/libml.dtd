@@ -24,11 +24,9 @@
 <!ELEMENT editor (#PCDATA)>
 
 <!-- Attribute Rules -->
-<!ATTLIST libml
-    xmlns %URI; "http://lskgfjv.linuxclass.marist.edu/libmlnewÎ/libml.dtd">
+<!ATTLIST libml 
+xmlns %URI; "http://lskgfjv.linuxclass.marist.edu/libml/libml.dtd">
 
-<!ATTLIST isbn
-    type (10 | 13)>
+<!ATTLIST isbn type (10 | 13) "10">
   
-<!ATTLIST edition
-    type (softCover | hardCover | eBook)>
+<!ATTLIST edition type (softCover|hardCover|eBook) "softCover">

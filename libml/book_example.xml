@@ -6,7 +6,7 @@
 		1400050340
 	</isbn>
 	<detail>
-		<title>Cheese: A Connoisseur's Guide to the World's Best</title>
+		<name>Cheese: A Connoisseur's Guide to the World's Best</name>
 		<!--<volume></volume>-->
 		<edition type="hardCover"></edition>
 		<publishDate>August 30, 2005</publishDate>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>libml/libml.html</string>
+	<string>libml/book_example.xml</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -14,7 +14,7 @@
 			<key>filename</key>
 			<string>index.html</string>
 			<key>lastUsed</key>
-			<date>2013-02-08T04:37:32Z</date>
+			<date>2013-02-10T22:24:24Z</date>
 		</dict>
 		<dict>
 			<key>expanded</key>
@@ -47,47 +47,33 @@
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
-		<key>libml/book.xsl</key>
+		<key>libml/book_example.xml</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>17</integer>
+				<integer>7</integer>
 				<key>line</key>
-				<integer>23</integer>
+				<integer>18</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>libml/example.html</key>
+		<key>libml/libml.dtd</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>13</integer>
+				<integer>55</integer>
 				<key>line</key>
 				<integer>27</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>12</integer>
-		</dict>
-		<key>libml/libml.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>54</integer>
-				<key>line</key>
-				<integer>61</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
 			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>31</integer>
 		</dict>
 		<key>style.css</key>
 		<dict>
@@ -106,13 +92,12 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>libml/book.xsl</string>
-		<string>libml/example.html</string>
-		<string>libml/libml.html</string>
+		<string>libml/book_example.xml</string>
+		<string>libml/libml.dtd</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{608, 191}, {617, 648}}</string>
+	<string>{{771, 256}, {617, 648}}</string>
 </dict>
 </plist>
