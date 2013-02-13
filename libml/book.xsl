@@ -15,7 +15,7 @@
 				<div id="content" class="shadow">
 					<h1>Nicholas J. La Roux</h1>
 					<hr />
-					<h2>LibML in Action! - <a href="../index.html">Back</a></h2>
+					<h2>LibML in Action! - <a href="libml.html">Back</a></h2>
 						<div id="book">
 			        		<xsl:apply-templates select="libml:detail"/>
 			        		<xsl:apply-templates select="libml:writers"/>
