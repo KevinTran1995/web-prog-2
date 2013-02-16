@@ -9,7 +9,8 @@
 		<html>
 			<head>
 				<title>LibML XML with XSL</title>
-				<link rel="stylesheet" type="text/css" href="style.css" />
+				<style type="text/css">body { overflow: hidden !important; }</style>
+				<link rel="stylesheet" type="text/css" href="../style.css" />
 			</head>
 			<body>
 				<div id="content" class="shadow">
