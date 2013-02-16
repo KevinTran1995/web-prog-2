@@ -4,3 +4,8 @@ doc/
 *~
 .DS_Store
 .tmproj
+*.tmproj
+
+.gitignore
+
+*.tmproj

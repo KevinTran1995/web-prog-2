@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>index.html</string>
+	<string>style.css</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -14,9 +14,7 @@
 			<key>filename</key>
 			<string>index.html</string>
 			<key>lastUsed</key>
-			<date>2013-02-13T06:24:44Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2013-02-13T16:46:57Z</date>
 		</dict>
 		<dict>
 			<key>expanded</key>
@@ -40,7 +38,9 @@
 			<key>filename</key>
 			<string>style.css</string>
 			<key>lastUsed</key>
-			<date>2013-02-13T05:20:16Z</date>
+			<date>2013-02-13T16:47:18Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
@@ -52,9 +52,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>39</integer>
+				<integer>7</integer>
 				<key>line</key>
-				<integer>14</integer>
+				<integer>19</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -66,9 +66,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>42</integer>
+				<integer>31</integer>
 				<key>line</key>
-				<integer>17</integer>
+				<integer>11</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -103,14 +103,14 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>libml/style.css</key>
+		<key>style.css</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>48</integer>
+				<integer>17</integer>
 				<key>line</key>
-				<integer>42</integer>
+				<integer>44</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -123,11 +123,11 @@
 		<string>libml/book_example.xml</string>
 		<string>libml/book.xsl</string>
 		<string>index.html</string>
-		<string>libml/style.css</string>
 		<string>libml/libml.dtd</string>
+		<string>style.css</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
-	<false/>
+	<true/>
 	<key>windowFrame</key>
 	<string>{{838, -0}, {838, 1028}}</string>
 </dict>
