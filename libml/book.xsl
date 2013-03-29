@@ -18,11 +18,9 @@
 					<hr />
 					<h2>LibML in Action! - <a href="libml.html">Back</a></h2>
 						<div id="book">
-							<!--<xsl:for-each select="book">-->
-			        			<xsl:apply-templates select="libml:detail"/>
-			        			<xsl:apply-templates select="libml:writers"/>
-								<xsl:apply-templates select="libml:isbn"/>
-							<!--</xsl:for-each>-->
+			        		<xsl:apply-templates select="libml:detail"/>
+			        		<xsl:apply-templates select="libml:writers"/>
+							<xsl:apply-templates select="libml:isbn"/>
 						</div>
 						<!-- still need to for each more books
 						<div id="book">

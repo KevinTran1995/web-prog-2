@@ -15,19 +15,3 @@
 		<editor></editor>
 	</writers>
 </book>
-<!--
-<book>
-	<isbn type="13">9780099437961</isbn>
-	<detail>
-		<name>Lullaby</name>
-		<volume></volume>
-		<edition type="hardCover">Hardcover</edition>
-		<publishDate>June 5, 2003</publishDate>
-		<publishHouse>Doubleday</publishHouse>
-	</detail>
-	<writers>
-		<author>Chuck Palahniuk</author>
-		<editor></editor>
-	</writers>
-</book>
--->
