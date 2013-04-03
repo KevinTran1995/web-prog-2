@@ -1,0 +1,11 @@
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	background: #f7f7f7;
+}
+
+.container{
+	width: 750px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
