@@ -1,36 +1,60 @@
 <!--http://lamp.it.marist.edu/venus/kgfjv/-->
 
+<?php
+	
+	/*	Original code
+	if(($_GET['style'])=="red"){
+	    	echo '<link rel="stylesheet" type="text/css" media="all" href="redStyle.css" />';
+	    }
+	    else if(($_GET['style'])=="blue"){
+	    	echo '<link rel="stylesheet" type="text/css" media="all" href="blueStyle.css" />';
+	    }
+		else if(($_GET['style'])=="green"){
+			echo '<link rel="stylesheet" type="text/css" media="all" href="greenStyle.css" />';
+		}
+		else if{
+			echo 'Hello';
+		}
+		
+		echo '<link rel="stylesheet" type="text/css" href="'$_GET['style'] .'Style.css">';
+	*/
+	
+	/* I was having considerable trouble with session thus, I turned to the friendly folks at Stack Overflow. Just wanted to make that clear. */
+	
+	//test for stylesheet parameter
+	if(isset($_GET['theme']))
+	{
+	    //save and set it in the session
+	    $stylesheet = $_GET['theme'];
+	    $_SESSION['stylesheet'] = $stylesheet;
+	}
+	elseif(isset($_SESSION['stylesheet']))
+	{
+	    //parameter not sent, so get it from the session
+	    $stylesheet = $_SESSION['stylesheet'];
+	}
+	
+	if($stylesheet == 'red')
+	{
+	    echo '<link rel="stylesheet" href="redStyle.css" type="text/css" />';
+	}
+	elseif($stylesheet == 'green')
+	{
+	    echo '<link rel="stylesheet" href="greenStyle.css" type="text/css" />';
+	}
+	elseif($stylesheet == 'blue')
+	{
+	    echo '<link rel="stylesheet" href="blueStyle.css" type="text/css" />';
+	}
+?>
+
 <!DOCTYPE html>
 	<head>
 		<title>April 2 Lab</title>
 		<meta charset="utf-8" />
 		
 		<link rel="stylesheet" type="text/css" href="baseStyle.css">
-		
-		<?php
-			/*if (isset($_GET['style'])){
-			$style = $_GET['style'];
-			}else{
-			$style = 'red';
-			}	
-			echo '<link rel="stylesheet" type="text/css" href="'$_GET['style']'Style.css">';*/
-			
-			/*if(($_GET['style'])=="red"){
-			    	echo '<link rel="stylesheet" type="text/css" media="all" href="redStyle.css" />';
-			    }
-			    else if(($_GET['style'])=="blue"){
-			    	echo '<link rel="stylesheet" type="text/css" media="all" href="blueStyle.css" />';
-			    }
-				else if(($_GET['style'])=="green"){
-					echo '<link rel="stylesheet" type="text/css" media="all" href="greenStyle.css" />';
-				}
-				else if{
-					echo 'Hello';
-				}*/
-				
-		echo '<link rel="stylesheet" type="text/css" href="'$_GET['style'] .'Style.css">';
-		
-		?>
+		<link rel="stylesheet" type="text/css" href="<?=$style?>">
 		
 	</head>
 	<body>
@@ -42,9 +66,9 @@
 		
 		<nav>
 		<h2>Style</h2>
-		<a href="index.php?style=red"><button>Red</button></a>
-		<a href="index.php?style=blue"><button>Blue</button></a>
-		<a href="index.php?style=green"><button>Green</button></a>
+		<a href="index.php?theme=red"><button>Red</button></a>
+		<a href="index.php?theme=blue"><button>Blue</button></a>
+		<a href="index.php?theme=green"><button>Green</button></a>
 		</nav>
 		
 		<hr>
